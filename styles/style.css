@@ -12,7 +12,10 @@
 body{
     font-family: 'Quicksand', sans-serif;
     margin: 0;
-}    
+}
+
+
+/*Create New Password*/
 
 .login {
    width: 100%;
@@ -30,6 +33,14 @@ body{
 .form {
     display: flex;
     flex-direction: column;
+}
+
+.form a {
+    color: var(--primary-color);
+    font-size: var(--sm);
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 52px;
 }
 
 .logo {
@@ -70,6 +81,10 @@ body{
     margin-bottom: 12px;
 }
 
+.input-email {
+    margin-bottom: 22px;
+}
+
 .primary-button {
     background-color: var(--primary-color);
     border-radius: 8px;
@@ -82,13 +97,61 @@ body{
     height: 40px;
 }
 
+.secondary-button {
+    background-color: var(--light);
+    border-radius: 8px;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 40px;
+}
+
+/*Email Sent*/
 .login-button {
     margin-top: 14px;
     margin-bottom: 30px;
 }
 
+.email-image {
+    width: 132px;
+    height: 132px;
+    border-radius: 50%;
+    background-color: var(--text-input-field);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.email-image img {
+    width: 80px;
+}
+
+.resend {
+    font-size: var(--sm);
+}
+
+.resend span {
+    color: var(--very-link-pink);
+}
+
+.resend a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+/*Mobile*/
 @media (max-width: 640px) {
     .logo {
         display: block;
     }
+
+    .secondary-button {
+        position: absolute;
+        bottom: 20px;
+        width: inherit;
+    }
+        
 }

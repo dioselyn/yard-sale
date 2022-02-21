@@ -9,24 +9,27 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
     <link rel="icon" type="image/svg" href="./assets/img/logos/favicon_yard_sale.svg"/>
-    <title>YardSale | Create a new password</title>
+    <title>YardSale | Email has been sent</title>
     
 </head>
 <body>
     <div class="login">
         <div class="form-container">
             <img src="./assets/img/logos/logo_yard_sale_purple.svg" alt="logo" class="logo"/>
-            <h1 class="title">Create a new password</h1>
-            <p class="subtitle">Enter a new password for your account</p>
-            <form action="/" class="form">
-                <label for="password" class="label">Password</label>
-                <input type="password" id="password" placeholder="*********" class="input input-password">
+            <h1 class="title">Email has been sent!</h1>
+            <p class="subtitle">Please check your inbox for instructions on how to reset the password</p>
+            
+            <div class="email-image">
+                <img src="./assets/img/icons/email.svg">
+            </div>
+     
+               
 
-                <label for="new-password" class="label">Confirm Password</label>
-                <input type="password" id="new-password" placeholder="*********" class="input input-password">
-
-                <input type="submit" value="Confirm" class="primary-button login-button"> 
-            </form>
+                <button class="primary-button login-button">Login</button>
+                <p class="resend">
+                    <span>Didn't receive the email?</span>
+                    <a href="./">Resend</a>
+                </p>
         </div>
     </div>
 </body>
