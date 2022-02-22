@@ -30,19 +30,6 @@ body{
     width: 300px; 
 }
 
-.form {
-    display: flex;
-    flex-direction: column;
-}
-
-.form a {
-    color: var(--primary-color);
-    font-size: var(--sm);
-    text-align: center;
-    text-decoration: none;
-    margin-bottom: 52px;
-}
-
 .logo {
     width: 150px;
     margin-bottom: 48px;
@@ -56,6 +43,11 @@ body{
     text-align: center;
 }
 
+.title-my-account {
+    text-align: start;
+    margin-bottom: 32px;
+}
+
 .subtitle {
     color: var(--very-link-pink);
     font-size: var(--md);
@@ -64,6 +56,26 @@ body{
     margin-bottom: 32px;
     text-align: center;
 }
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-my-account div {
+    display: flex;
+    flex-direction: column;
+}
+
+.form a {
+    color: var(--primary-color);
+    font-size: var(--sm);
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 52px;
+}
+
+
 
 .label {
     font-size: var(--sm);
@@ -81,7 +93,9 @@ body{
     margin-bottom: 12px;
 }
 
-.input-email {
+.input-email, 
+.input-name, 
+.input-password {
     margin-bottom: 22px;
 }
 
@@ -111,6 +125,11 @@ body{
 
 /*Email Sent*/
 .login-button {
+    margin-top: 14px;
+    margin-bottom: 30px;
+}
+
+.my-account-button {
     margin-top: 14px;
     margin-bottom: 30px;
 }
@@ -148,10 +167,17 @@ body{
         display: block;
     }
 
-    .secondary-button {
+   .login-button {
         position: absolute;
-        bottom: 20px;
-        width: inherit;
+        bottom: 60px;
+        width: 300px;
     }
+
+    .form-my-account {
+        height: 100%;
+        justify-content: space-between;
+    } 
+
+  
         
 }
