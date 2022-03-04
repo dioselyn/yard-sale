@@ -309,6 +309,11 @@ body {
 .order p span:nth-child(2) {
   font-size: var(--sm);
   color: var(--very-light-pink);
+  
+}
+
+.order p:nth-child(2) {
+  font-weight: bold;
 }
 
 .my-order p:nth-child(2) {
@@ -435,6 +440,7 @@ nav {
 .product-detail {
   width:360px;
   padding-bottom: 24px;
+  box-sizing: border-box;
   position: absolute;
   right: 0;
 }
@@ -493,6 +499,27 @@ nav {
   align-items: center;
   justify-content: center;
 }
+
+/*Shopping cart*/
+.shopping-cart-container {
+ padding: 24px;
+}
+
+.title-container {
+  display: flex;  
+}
+
+.title-container img {
+  transform: rotate(180deg);
+  margin-right: 14px;
+  margin-top: 9px;
+}
+
+.title-shopping-cart {
+  font-weight: bold;
+}
+
+
 
 
 /*Mobile*/
