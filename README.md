@@ -3,7 +3,7 @@ Yard Sale Frontend
 
 
 Getting Started 🚀
-These instructions will allow you to get a working copy of the project on your local machine for development and testing purposes.
+Frontend for the Application - Yard Sale
 
 See Deployment to learn how to deploy the project.
 
@@ -22,6 +22,6 @@ Ing. Dioselyn Colina
 License📄
 This project is licensed under the MIT License - see the LICENSE.md file for details
 
-Thanks to God for allowing me to learn and to platzi for teaching me more every day 🎁
+Thanks to God for allowing me to learn more every day 🎁
 
 
