@@ -5,6 +5,10 @@ Yard Sale Frontend
 Getting Started 🚀
 Frontend for the Application - Yard Sale
 
+Technologies 💻
+  - HTML
+  - CSS
+
 See Deployment to learn how to deploy the project.
 
 Pre-requirements 📋
