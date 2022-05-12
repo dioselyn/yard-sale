@@ -14,6 +14,13 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+}
 /*Create New Password*/
 
 .login {
@@ -378,9 +385,13 @@ nav{
 
 .navbar-logo {
   width: 130px;
+  display: flex;
+  justify-content: center;
   justify-self: center;
 }
-
+.navbar-logo img {
+  width: 130px;
+}
 .menu {
   display: none;
 }
@@ -404,7 +415,6 @@ nav{
 
 .navbar-left ul li a,
 .navbar-right ul li a {
-  text-decoration: none;
   color: var(--very-link-pink);
   border: 1px solid var(--light);
   padding: 8px;
@@ -413,7 +423,6 @@ nav{
 
 .navbar-left ul li a:hover,
 .navbar-right ul li a:hover {
-  text-decoration: none;
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
 }
@@ -426,6 +435,10 @@ nav{
 
 .navbar-shopping-cart {
   position: relative;
+}
+
+.navbar-right ul li a.shopping-cart-icon:hover{
+  border: none;
 }
 
 .navbar-shopping-cart div {
@@ -547,7 +560,7 @@ nav{
 
   /*Cards*/
   .cards-container {
-    grid-template-columns: repeat(auto-fill, 140px);
+    grid-template-columns: repeat(auto-fill, 200px);
   }
 
   .product-card {
@@ -634,5 +647,9 @@ nav{
   /*Product Detail*/
   .product-detail {
     width: 100%;
+  }
+
+  .label-desktop {
+    display: none;
   }
 }
